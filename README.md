@@ -12,5 +12,7 @@ This script enumerates users via the Public Kite API and shows their Name and Lo
 First, if you don't trust it, don't execute it. It's a compiled python script that brute forces the API with internal extentions, from 200 to 700.
 If the API returns 200 OK, it reads and displays the data. This data contains live location.
 
+I would add a map with location markers, but python folium is broken in Windows v2004, so.. no map.
+
 # Disclaimer
-I am not responsible for any damage you might cause with this tool. I made it to only make people aware of endpoints that show sensetive data about the users.
+I am not responsible for any damage you might cause with this tool. I made it to only make people aware of endpoints that show sensetive data about the users. Also, the developers don't think this is an issue.
