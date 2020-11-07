@@ -15,4 +15,4 @@ If the API returns 200 OK, it reads and displays the data. This data contains li
 I would add a map with location markers, but python folium is broken on Windows v2004, so.. no map.
 
 # Disclaimer
-I am not responsible for any damage you might cause with this tool. I made it to for educational purpose only.
+I am not responsible for any damage you might cause with this tool. I made it for educational purpose only.
