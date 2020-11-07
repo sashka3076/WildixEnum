@@ -1,5 +1,5 @@
 # WildixEnum
-Wildix user enumeration and show current location
+Wildix user enumeration and show live location
 
 
 ## Wildix
