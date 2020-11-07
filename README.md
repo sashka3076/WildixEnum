@@ -15,4 +15,4 @@ If the API returns 200 OK, it reads and displays the data. This data contains li
 I would add a map with location markers, but python folium is broken on Windows v2004, so.. no map.
 
 # Disclaimer
-I am not responsible for any damage you might cause with this tool. I made it to only make people aware of endpoints that show sensetive data about the users. Also, the developers don't think this is an issue.
+I am not responsible for any damage you might cause with this tool. I made it to for educational purpose only.
