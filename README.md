@@ -1,2 +1,2 @@
-# blupwn
+# WildixEnum
 Wildix user enumeration and show current location
