@@ -15,7 +15,7 @@ If the API returns 200 OK, it reads and displays the data. This data contains li
 <del>I would add a map with location markers, but python folium is broken on Windows v2004, so.. no map.</del>
 
 
-Folium (map plugin) was fixed. If you use the decompiled python script version it'll display a map with the live location of the online user.
+Folium (map plugin) was fixed. If you use the decompiled python script version it'll display a map with the live location of the online users.
 
 # Disclaimer
 I am not responsible for any damage you might cause with this tool. I made it for educational purpose only.
