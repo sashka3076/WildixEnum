@@ -14,6 +14,8 @@ If the API returns 200 OK, it reads and displays the data. This data contains li
 
 <del>I would add a map with location markers, but python folium is broken on Windows v2004, so.. no map.</del>
 
+## How do I know who's vulnerable?
+Try google dork with `inurl:wildixin.com intext:"Wildix Collaboration"`, check wildixin.com on https://crt.sh/ or do a reverse ip lookup on hackertarget.com.
 
 Folium (map plugin) was fixed. If you use the decompiled python script version it'll display a map with the live location of the online users.
 
