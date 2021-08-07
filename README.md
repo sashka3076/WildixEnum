@@ -13,6 +13,8 @@ First, if you don't trust it, don't execute it. It's a compiled python script th
 If the API returns 200 OK, it reads and displays the data. This data contains live location.
 
 <del>I would add a map with location markers, but python folium is broken on Windows v2004, so.. no map.</del>
+
+
 Folium (map plugin) was fixed. If you use the decompiled python script version it'll display a map with the live location of the online user.
 
 # Disclaimer
