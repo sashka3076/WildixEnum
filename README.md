@@ -15,7 +15,7 @@ If the API returns 200 OK, it reads and displays the data. This data contains li
 <del>I would add a map with location markers, but python folium is broken on Windows v2004, so.. no map.</del>
 
 ## How do I know who's vulnerable?
-Try google dork with `inurl:wildixin.com intext:"Wildix Collaboration"`, check wildixin.com on crt.sh or do a reverse ip lookup on hackertarget.com. Check dnsdumpster.com on Wildixin.com, or, my favorite, search on Shodan.io for `wildix-http-server`
+Try google dork with `inurl:wildixin.com intext:"Wildix Collaboration"` or `intitle:"Kite Me" intext:"kite-chat"`, check wildixin.com on crt.sh or do a reverse ip lookup on hackertarget.com. Check dnsdumpster.com on Wildixin.com, or, my favorite, search on Shodan.io for `wildix-http-server`
 
 ![Shodan.IO findings](./wildix-http-server.PNG)
 
