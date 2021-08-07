@@ -47,9 +47,18 @@ with tqdm(initial=int(start), total=int(end), desc='Progress') as bar: # define 
                 ext     = data['result']['extension']
                 naam    = data['result']['name']
                 status  = data['result']['presence']['online']
-                adres   = data['result']['presence']['location']['address']
-                lat     = data['result']['presence']['location']['lat']
-                long    = data['result']['presence']['location']['lng']
+
+                # Some PBX might have disabled the location service, so if none, return "No data", but still show other data
+                try:
+                    adres   = data['result']['presence']['location']['address']
+                    lat     = data['result']['presence']['location']['lat']
+                    long    = data['result']['presence']['location']['lng']
+                except Exception:
+                    adres   = 'No data'
+                    lat     = 'No data'
+                    long    = 'No data'
+                    pass
+
                 pbx     = data['result']['pbxDomain']
                 chat    = 'https://kite.wildix.com/' + org + '/' + str(ext)
 
