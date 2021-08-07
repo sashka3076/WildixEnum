@@ -17,7 +17,7 @@ If the API returns 200 OK, it reads and displays the data. This data contains li
 ## How do I know who's vulnerable?
 Try google dork with `inurl:wildixin.com intext:"Wildix Collaboration"`, check wildixin.com on crt.sh or do a reverse ip lookup on hackertarget.com. Check dnsdumpster.com on Wildixin.com, or, my favorite, search on Shodan.io for `wildix-http-server`
 
-
+![Shodan.IO findings](./wildix-http-server.PNG)
 
 Folium (map plugin) was fixed. If you use the decompiled python script version it'll display a map with the live location of the online users.
 
